@@ -1,3 +1,19 @@
 # workingWithAPIs
-this is a tutorial to retrieve user information using Githubs APIs.
+this is a tutorial from codebar  on HTTP Requests, AJAX and APIs
+
+## Objectives
+The topics of this tutorial are: 
+
+The HTTP protocol
+APIs
+AJAX
+JSON
+Loading API data into web pages
+Using jQuery AJAX functionality
+
+## Goal
+To build a webpage that can retrieve information about a specified GitHub user.
+
+## additional features 
+check user name if exist. 
 
