@@ -1,3 +1,5 @@
+//On Github 
+
 //github user finder example
 var username = "";
 $(document).ready(function() {
