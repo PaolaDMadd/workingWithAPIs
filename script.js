@@ -1,4 +1,3 @@
-//On Github 
 
 //github user finder example
 var username = "";
@@ -10,4 +9,13 @@ $(document).ready(function() {
       showUser(getGithubInfo(username));
     }
   });
-});
+
+
+});function getGithubInfo(username) {
+  var url = "https://api.github.com/users/" + username;
+  var xmlhttp = new XMLHttpRequest();
+  xmlhttp.open("GET", url, false);
+  xmlhttp.send();
+
+  return xmlhttp;
+}
