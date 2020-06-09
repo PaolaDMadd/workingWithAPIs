@@ -14,6 +14,6 @@ Using jQuery AJAX functionality
 ## Goal
 To build a webpage that can retrieve information about a specified GitHub user.
 
-## additional features 
-check user name if exist. 
+## Additional features 
+check if user name exist. 
 
