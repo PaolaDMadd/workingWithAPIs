@@ -51,7 +51,13 @@ function showUser(xmlhttp) {
     if (avatarParents && avatarParents.length === 1) {
       var avatarParent = avatarParents[0];
       avatarParent.appendChild(newImage);
-    }}
+      newImage.classList.add("avatarFound");
+    }
+  } else {
+    console.error("An error occurred. Received status code: ", xmlhttp.status);
+    var headingElement = document.querySelector("#profile h2");
+    headingElement.innerHTML = "No such user!";
+  }
 
   var input = document.getElementById("username");
   input.value = "";
